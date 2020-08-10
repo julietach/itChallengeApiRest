@@ -2,7 +2,7 @@ const express = require('express');
 var cors = require('cors');
 const Sequelize = require('sequelize');
 
-global.db = new Sequelize('tecso', 'postgres', '37815875', {
+global.db = new Sequelize('tecso', 'postgres', '', {
     host: 'localhost',
     dialect: 'postgres'
 });
